@@ -26,7 +26,7 @@ NSString *rawResponse;
     rawResponse = [[_client postBook] description];
     
     if ([rawResponse isEqual:@"false"]){
-        _textView.text = @"Could not create the book.\n\nDid you enter your orgName (username) correctly on line 24 of Client.m?";
+        _textView.text = @"Could not create the book.\n\nDid you enter your orgName (username) correctly on line 31 of Client.m?";
     } else {
         _textView.text = [@"Success! Here is the the object we stored; notice the timestamps and unique id we created for you\n\n" stringByAppendingString:rawResponse];
     }

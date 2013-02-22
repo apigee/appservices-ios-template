@@ -171,7 +171,7 @@
 		8A79BA3316D7C4A900526C51 = {
 			isa = PBXGroup;
 			children = (
-				8A79BA4516D7C4A900526C51 /* Apigee App Services iOS Template */,
+				8A79BA4516D7C4A900526C51 /* iOS Template */,
 				8A79BA3E16D7C4A900526C51 /* Frameworks */,
 				8A2C4DA716D7CECA00D5195D /* Usergrid */,
 				8A79BA3D16D7C4A900526C51 /* Products */,
@@ -196,7 +196,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8A79BA4516D7C4A900526C51 /* Apigee App Services iOS Template */ = {
+		8A79BA4516D7C4A900526C51 /* iOS Template */ = {
 			isa = PBXGroup;
 			children = (
 				8A2C4D9C16D7C85400D5195D /* Client.h */,
@@ -208,6 +208,7 @@
 				8A79BA5E16D7C4A900526C51 /* ViewController.m */,
 				8A79BA4616D7C4A900526C51 /* Supporting Files */,
 			);
+			name = "iOS Template";
 			path = "Apigee App Services iOS Template";
 			sourceTree = "<group>";
 		};

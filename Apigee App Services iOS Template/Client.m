@@ -78,7 +78,7 @@
 /*
     4. Congrats, you’re done!
  
-    - You can try adding more properties after line 46 and reloading the app!   
+    - You can try adding more properties after line 55 and reloading the app!   
     - You can then see the admin view of this data by logging in at https://apigee.com/usergrid
     - Or you can go explore more advanced examples in our docs: http://apigee.com/docs/usergrid */
 
