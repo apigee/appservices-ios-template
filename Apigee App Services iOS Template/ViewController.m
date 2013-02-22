@@ -14,10 +14,22 @@
 
 @implementation ViewController
 
+NSString *rawResponse;
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    _client = [[Client alloc] init];
+    
+    rawResponse = [[_client postBook] description];
+    
+    if ([rawResponse isEqual:@"false"]){
+        _textView.text = @"Could not create the book.\n\nDid you enter your orgName (username) correctly on line 24 of Client.m?";
+    } else {
+        _textView.text = [@"Success! Here is the the object we stored; notice the timestamps and unique id we created for you\n\n" stringByAppendingString:rawResponse];
+    }
 }
 
 - (void)didReceiveMemoryWarning
