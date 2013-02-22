@@ -1,4 +1,4 @@
-Welcome to the Apigee App Services template app for iOS (iPhone)!
+Welcome to the Apigee App Services template app for iOS!
 
 App Services is Apigee’s hosted version of the open-source technology “Usergrid” — you may find references to that name in a few places. 
 
