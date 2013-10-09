@@ -11,3 +11,5 @@ If you followed the steps correctly, you should see a visual confirmation when y
 
 P.S.: You can install XCode from the Mac App Store. XCode is Mac only… You cannot develop iOS applications from anything but an Apple machine
 http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12
+
+This sample is maintained by Tim Anglade. Please open all bugs as issues on our github repo, or email tim@apigee.com if you have any questions.
